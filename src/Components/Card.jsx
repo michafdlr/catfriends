@@ -19,10 +19,10 @@ const Card = ({id, name, email}) => {
     </div>
   )
 }
-Card.PropTypes = {
+Card.propTypes = {
   name: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
   id: PropTypes.number.isRequired,
-  key: PropTypes.number.isRequired
+  // key: PropTypes.number.isRequired
 }
 export default Card;

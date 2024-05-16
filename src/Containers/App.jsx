@@ -19,8 +19,7 @@ function App() {
         }
         return response.json();
       }).then(users => setRobots(users))
-      }
-  )
+      }, [])
 
 
   const filteredRobots = robots.filter(robot => {
