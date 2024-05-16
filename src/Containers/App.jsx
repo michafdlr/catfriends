@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import CardList from './CardList';
-import SearchBox from './SearchBox';
-import Scroll from './Scroll';
+import CardList from '../Components/CardList';
+import SearchBox from '../Components/SearchBox';
+import Scroll from '../Components/Scroll';
 
 function App() {
   const [robots, setRobots] = useState([])
